@@ -1,32 +1,30 @@
 {
     "name": "kingflamez/laravelrave",
     "description": "A Laravel 5 Package for Flutterwave Rave",
-    "keywords": ["php","github", "laravel","Open Source","payments", "kingflamez", "Flutterwave Rave", "Flutterwave", "rave", "ravepay.co","laravel 5"],
+    "keywords": ["php", "github", "laravel", "Open Source", "payments", "kingflamez", "Flutterwave Rave", "Flutterwave", "rave", "ravepay.co", "laravel 5"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "kingflamez",
-            "email": "flamekeed@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "kingflamez",
+        "email": "flamekeed@gmail.com"
+    }],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2|^8.0",
-        "illuminate/support": "^5.0|^6.0|^7.0|^8.0"
-   },
-   "require-dev": {
-        "phpunit/phpunit" : "^8.3",
-        "scrutinizer/ocular": "^1.1",
-        "satooshi/php-coveralls": ">0.7",
-        "mockery/mockery": "^1.2",
-        "orchestra/testbench": "^4.0"
+        "php": "^8.0.2",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0",
+        "symfony/yaml": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.18",
+        "scrutinizer/ocular": "^1.9",
+        "mockery/mockery": "^1.5.0",
+        "orchestra/testbench": "^7.1.0"
     },
     "autoload": {
         "classmap": [
             "src/Rave.php"
         ],
         "psr-4": {
-          "KingFlamez\\Rave\\": "src/"
+            "KingFlamez\\Rave\\": "src/"
         }
     },
     "autoload-dev": {
